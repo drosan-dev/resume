@@ -25,6 +25,13 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
+      - name: Normalize GitHub Pages asset paths
+        run: |
+          REPOSITORY_NAME="${GITHUB_REPOSITORY#*/}"
+          if [ -d "dist/client/${REPOSITORY_NAME}/_next" ]; then
+            mv "dist/client/${REPOSITORY_NAME}/_next" dist/client/_next
+            rmdir "dist/client/${REPOSITORY_NAME}"
+          fi
       - uses: actions/configure-pages@v5
         with:
           enablement: true
