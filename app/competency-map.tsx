@@ -11,7 +11,7 @@ const competencies = [
     name: { ru: 'Backend и архитектура', en: 'Backend & architecture' },
     summary: { ru: 'Проектирование сервисов, интеграций и границ систем.', en: 'Designing services, integrations and system boundaries.' },
     evidence: [
-      { company: 'Альфа-Банк', text: { ru: 'Разработка внутренних микросервисов на современном .NET.', en: 'Building internal microservices on modern .NET.' } },
+      { company: 'Альфа-Банк', text: { ru: 'Разработка внутренних сервисов на современном .NET; детали под NDA.', en: 'Building internal services on modern .NET; details protected by NDA.' } },
       { company: 'Миртех', text: { ru: 'Декомпозиция готовых систем и внешние интеграции.', en: 'Decomposing existing systems and building external integrations.' } },
       { company: 'Росквартал', text: { ru: 'Выделение микросервиса из крупного монолита.', en: 'Extracting a microservice from a large monolith.' } },
     ],
@@ -31,7 +31,7 @@ const competencies = [
     name: { ru: 'Delivery и инфраструктура', en: 'Delivery & infrastructure' },
     summary: { ru: 'Путь сервиса от репозитория до работающего окружения.', en: 'Taking a service from repository to a running environment.' },
     evidence: [
-      { company: 'Альфа-Банк', text: { ru: 'CI/CD для новых сервисов, Docker и Kubernetes.', en: 'CI/CD for new services, Docker and Kubernetes.' } },
+      { company: 'Альфа-Банк', text: { ru: 'Работа с процессами поставки внутренних сервисов; детали под NDA.', en: 'Working with delivery processes for internal services; details protected by NDA.' } },
       { company: 'Коммерческий опыт', text: { ru: 'GitLab CI/CD, Jenkins и работа с Linux.', en: 'GitLab CI/CD, Jenkins and Linux experience.' } },
     ],
   },
@@ -50,7 +50,7 @@ const competencies = [
     summary: { ru: 'Ревью, развитие команды и улучшение инженерных практик.', en: 'Reviews, team development and stronger engineering practices.' },
     evidence: [
       { company: 'Миртех', text: { ru: 'Team Lead: code review, оценка задач, собеседования и образовательные лекции.', en: 'Team Lead: code review, estimation, interviews and internal lectures.' } },
-      { company: 'Альфа-Банк', text: { ru: 'Code review и распространение новых подходов внутри команды.', en: 'Code review and sharing new approaches across the team.' } },
+      { company: 'Альфа-Банк', text: { ru: 'Code review и участие в развитии инженерных практик команды.', en: 'Code review and contributing to the team’s engineering practices.' } },
     ],
   },
   {
@@ -58,7 +58,7 @@ const competencies = [
     name: { ru: 'AI-assisted development', en: 'AI-assisted development' },
     summary: { ru: 'AI как контролируемый инженерный инструмент, а не замена экспертизе.', en: 'AI as a controlled engineering tool, not a substitute for expertise.' },
     evidence: [
-      { company: 'Альфа-Банк', text: { ru: 'Генерация кода и внедрение AI-разработки в процессы команды.', en: 'Code generation and introducing AI-assisted development into team workflows.' } },
+      { company: 'Альфа-Банк', text: { ru: 'Практическое применение AI-инструментов в разработке; детали под NDA.', en: 'Practical use of AI tools in software development; details protected by NDA.' } },
       { company: 'Подход', text: { ru: 'Результат AI проходит те же требования к ревью и качеству кода.', en: 'AI output follows the same review and code-quality expectations.' } },
     ],
   },

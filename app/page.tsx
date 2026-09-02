@@ -14,7 +14,7 @@ const copy = {
     eyebrow: 'Senior .NET developer · открыт к удалённой работе', title: 'Строю надёжный backend и превращаю AI из эксперимента в рабочий инструмент команды.',
     intro: 'Senior .NET-разработчик с коммерческим опытом с 2019 года. Разрабатываю backend-сервисы, модернизирую legacy-системы и выстраиваю процессы, которые помогают команде надёжно выпускать изменения.',
     brief: '30 секунд', full: 'Подробнее', contact: 'Написать', match: 'Сопоставить с вакансией', github: 'GitHub', navMatch: 'Вакансия', navSkills: 'Компетенции', navExperience: 'Опыт', navLab: 'Game Lab', navContacts: 'Контакты', evidence: 'Карьера в цифрах', years: 'лет коммерческой разработки', speed: 'ускорение отдельных страниц', code: 'строк монолита — масштаб выделения микросервиса', companies: 'компании и разные продуктовые домены', experience: 'Опыт', current: 'Сейчас',
-    alfa: 'Внутренняя база знаний: микросервисы на современном .NET, legacy, Docker, Kubernetes, CI/CD, code review и внедрение AI-assisted development в команде.',
+    alfa: 'Разработка и модернизация внутренних сервисов на современном .NET. Работа с legacy-компонентами, процессами поставки, code review и AI-инструментами. Детали проектов находятся под NDA.',
     mirtech: 'Веб-платформа грантовых конкурсов. Разработка, интеграции, авторизация, декомпозиция систем и развитие инженерных практик команды.',
     ros: 'Платформа для сферы ЖКХ. Разработка и рефакторинг, включая выделение микросервиса из десятков тысяч строк монолита.',
     lab: 'Game Lab', labText: 'Самостоятельно исследую игровые механики через небольшие проекты на Unity — от идеи до работающего прототипа.', location: 'Петрозаводск · UTC+3 · удалённо', nda: 'Часть деталей текущих проектов ограничена NDA.', responsibilities: 'Зона ответственности', results: 'Результаты', stack: 'Стек', locationLabel: 'Локация', locationDetail: 'Петрозаводск · UTC+3', educationLabel: 'Образование', education: 'ПетрГУ · ИМИТ, обучение до 4 курса', languageLabel: 'Язык', language: 'Английский · B1', formatLabel: 'Формат работы', format: 'Удалённо · российские и международные команды', contactKicker: '05 / НА СВЯЗИ', contactTitle: 'Есть сложная система или интересная идея?', contactText: 'Готов обсудить senior .NET/backend роль, развитие инженерных практик или проект на пересечении технологий и игровых механик.', availability: 'Открыт к предложениям · удалённо · UTC+3', writeBy: 'Предпочтительный способ связи', social: 'Социальный профиль',
@@ -23,7 +23,7 @@ const copy = {
     eyebrow: 'Senior .NET developer · open to remote work', title: 'I build reliable backend systems and turn AI from an experiment into a practical tool for the team.',
     intro: 'Senior .NET developer with commercial experience since 2019. I build backend services, modernize legacy systems and improve the engineering processes that help teams ship reliable changes.',
     brief: '30 seconds', full: 'In depth', contact: 'Contact me', match: 'Match a vacancy', github: 'GitHub', navMatch: 'Vacancy', navSkills: 'Skills', navExperience: 'Experience', navLab: 'Game Lab', navContacts: 'Contacts', evidence: 'Career by the numbers', years: 'years in commercial development', speed: 'faster page performance', code: 'lines of monolith reviewed to extract a microservice', companies: 'companies across distinct product domains', experience: 'Experience', current: 'Now',
-    alfa: 'Internal knowledge platform: modern .NET microservices, legacy systems, Docker, Kubernetes, CI/CD, code review and introducing AI-assisted development to the team.',
+    alfa: 'Development and modernization of internal services on modern .NET. Work with legacy components, delivery processes, code review and AI tools. Project details are protected by NDA.',
     mirtech: 'A grant competition platform. Product development, integrations, authorization, system decomposition and stronger engineering practices.',
     ros: 'A platform for housing management companies. Development and refactoring, including extracting a microservice from tens of thousands of lines of monolith code.',
     lab: 'Game Lab', labText: 'I explore game mechanics through small Unity projects, taking each experiment from an idea to a working prototype.', location: 'Petrozavodsk · UTC+3 · remote', nda: 'Some details of my current work are protected by NDA.', responsibilities: 'Responsibilities', results: 'Outcomes', stack: 'Stack', locationLabel: 'Location', locationDetail: 'Petrozavodsk · UTC+3', educationLabel: 'Education', education: 'Petrozavodsk State University · studied through year 4', languageLabel: 'Language', language: 'English · B1', formatLabel: 'Work format', format: 'Remote · Russian and international teams', contactKicker: '05 / GET IN TOUCH', contactTitle: 'Have a complex system or an interesting idea?', contactText: 'I am open to discussing a senior .NET/backend role, stronger engineering practices, or a project where technology meets game mechanics.', availability: 'Open to opportunities · remote · UTC+3', writeBy: 'Preferred contact', social: 'Social profile',
@@ -34,11 +34,11 @@ const roles = [
   {
     period: '10.2024—', company: 'Альфа-Банк', key: 'alfa', position: '.NET Developer',
     responsibilities: {
-      ru: ['Внутренние микросервисы корпоративной базы знаний', 'Поддержка и модернизация legacy-компонентов', 'CI/CD для новых сервисов, code review'],
-      en: ['Internal microservices for a corporate knowledge platform', 'Maintenance and modernization of legacy components', 'CI/CD for new services and code review'],
+      ru: ['Разработка внутренних сервисов', 'Поддержка и модернизация legacy-компонентов', 'Процессы поставки изменений и code review'],
+      en: ['Development of internal services', 'Maintenance and modernization of legacy components', 'Software delivery processes and code review'],
     },
-    results: { ru: ['Внедрение AI-assisted development в процессы команды', 'Архитектурные детали и метрики защищены NDA'], en: ['Introducing AI-assisted development into team workflows', 'Architecture details and metrics are protected by NDA'] },
-    stack: ['C#', '.NET', 'Docker', 'Kubernetes', 'CI/CD', 'AI tools'],
+    results: { ru: ['Практическое применение AI-инструментов в разработке', 'Архитектурные детали и метрики защищены NDA'], en: ['Practical use of AI tools in software development', 'Architecture details and metrics are protected by NDA'] },
+    stack: ['C#', '.NET', 'Delivery tooling', 'AI tools'],
   },
   {
     period: '11.2021—08.2024', company: 'Миртех', key: 'mirtech', position: 'C# Developer / Team Lead',
