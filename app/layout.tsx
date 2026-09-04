@@ -6,9 +6,16 @@ const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin', 'cyr
 
 const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin', 'cyrillic'] });
 
+const publicBasePath = process.env.GITHUB_ACTIONS === 'true'
+  ? `/${process.env.GITHUB_REPOSITORY?.split('/')[1] ?? 'resume'}`
+  : '';
+
 export const metadata: Metadata = {
   metadataBase: new URL('https://drosan-dev.github.io/resume/'),
   title: 'Антон Владимиров — Senior .NET Developer',
+  icons: {
+    icon: [{ url: `${publicBasePath}/favicon.svg?v=av1`, type: 'image/svg+xml', sizes: 'any' }],
+  },
   description: 'Senior .NET/C# developer with 7+ years of commercial experience in backend systems, microservices and engineering practices.',
   openGraph: {
     title: 'Антон Владимиров — Senior .NET Developer',
